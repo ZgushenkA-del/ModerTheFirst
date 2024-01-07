@@ -6,7 +6,10 @@ import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
-import ru.mmgroup.item.PanamaItem;
+import ru.mmgroup.item.BastBoots;
+import ru.mmgroup.item.BastChestplate;
+import ru.mmgroup.item.BastHelmet;
+import ru.mmgroup.item.BastLeggings;
 
 public class WheatArmorMaterial implements ArmorMaterial {
     private static final int[] PROTECTION_VALUES = new int[] {1, 2, 3, 1};
@@ -52,6 +55,9 @@ public class WheatArmorMaterial implements ArmorMaterial {
 
     public static void Initialize() {
         WheatArmorMaterial wheatArmor = new WheatArmorMaterial();
-        PanamaItem.Initialize(wheatArmor);
+        BastHelmet.Initialize(wheatArmor);
+        BastBoots.Initialize(wheatArmor);
+        BastLeggings.Initialize(wheatArmor);
+        BastChestplate.Initialize(wheatArmor);
     }
 }

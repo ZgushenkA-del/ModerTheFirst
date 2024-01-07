@@ -4,7 +4,6 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.mmgroup.armormaterial.WheatArmorMaterial;
-import ru.mmgroup.item.PanamaItem;
 
 public class OctopusInPanamaWithPanamaMod implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
